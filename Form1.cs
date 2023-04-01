@@ -16,5 +16,21 @@ namespace DLG_Project
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            progressBar1.Value += 1;
+            label1.Text = "Carregando... " + progressBar1.Value.ToString() + "%";
+
+            if (progressBar1.Value == 100)
+            {
+                timer1.Enabled = false;
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //label1.Text = "Carregando... "+progressBar1.Value.ToString()+"%";
+        }
     }
 }
