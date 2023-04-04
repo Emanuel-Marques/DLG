@@ -33,6 +33,9 @@ namespace DLG_Project
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_youtube = new System.Windows.Forms.Button();
             this.btn_instagram = new System.Windows.Forms.Button();
+            this.btn_dicionario = new System.Windows.Forms.Button();
+            this.btn_exercitar = new System.Windows.Forms.Button();
+            this.btn_login = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_fechar
@@ -94,6 +97,49 @@ namespace DLG_Project
             this.btn_instagram.UseVisualStyleBackColor = false;
             this.btn_instagram.Click += new System.EventHandler(this.btn_instagram_Click);
             // 
+            // btn_dicionario
+            // 
+            this.btn_dicionario.BackColor = System.Drawing.Color.Transparent;
+            this.btn_dicionario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_dicionario.FlatAppearance.BorderSize = 0;
+            this.btn_dicionario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_dicionario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_dicionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_dicionario.Location = new System.Drawing.Point(51, 244);
+            this.btn_dicionario.Name = "btn_dicionario";
+            this.btn_dicionario.Size = new System.Drawing.Size(218, 227);
+            this.btn_dicionario.TabIndex = 4;
+            this.btn_dicionario.UseVisualStyleBackColor = false;
+            this.btn_dicionario.Click += new System.EventHandler(this.btn_dicionario_Click);
+            // 
+            // btn_exercitar
+            // 
+            this.btn_exercitar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_exercitar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_exercitar.FlatAppearance.BorderSize = 0;
+            this.btn_exercitar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_exercitar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_exercitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_exercitar.Location = new System.Drawing.Point(404, 240);
+            this.btn_exercitar.Name = "btn_exercitar";
+            this.btn_exercitar.Size = new System.Drawing.Size(215, 227);
+            this.btn_exercitar.TabIndex = 5;
+            this.btn_exercitar.UseVisualStyleBackColor = false;
+            // 
+            // btn_login
+            // 
+            this.btn_login.BackColor = System.Drawing.Color.Transparent;
+            this.btn_login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_login.FlatAppearance.BorderSize = 0;
+            this.btn_login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_login.Location = new System.Drawing.Point(736, 244);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(215, 227);
+            this.btn_login.TabIndex = 6;
+            this.btn_login.UseVisualStyleBackColor = false;
+            // 
             // Frm_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,6 +148,9 @@ namespace DLG_Project
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(988, 659);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_login);
+            this.Controls.Add(this.btn_exercitar);
+            this.Controls.Add(this.btn_dicionario);
             this.Controls.Add(this.btn_instagram);
             this.Controls.Add(this.btn_youtube);
             this.Controls.Add(this.btn_minimizar);
@@ -120,5 +169,8 @@ namespace DLG_Project
         private System.Windows.Forms.Button btn_minimizar;
         private System.Windows.Forms.Button btn_youtube;
         private System.Windows.Forms.Button btn_instagram;
+        private System.Windows.Forms.Button btn_dicionario;
+        private System.Windows.Forms.Button btn_exercitar;
+        private System.Windows.Forms.Button btn_login;
     }
 }

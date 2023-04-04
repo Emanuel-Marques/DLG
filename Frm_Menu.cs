@@ -37,5 +37,12 @@ namespace DLG_Project
             this.Close();
             splash.Close();
         }
+
+        private void btn_dicionario_Click(object sender, EventArgs e)
+        {
+            Frm_dicionario dicionario = new Frm_dicionario();
+            dicionario.Show();
+            this.Hide();
+        }
     }
 }
