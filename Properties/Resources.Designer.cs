@@ -63,6 +63,16 @@ namespace DLG_Project.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Tela_menu {
+            get {
+                object obj = ResourceManager.GetObject("Tela-menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tela_splash {
             get {
                 object obj = ResourceManager.GetObject("Tela-splash", resourceCulture);

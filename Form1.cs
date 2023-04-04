@@ -25,6 +25,9 @@ namespace DLG_Project
             if (progressBar1.Value == 100)
             {
                 timer1.Enabled = false;
+                Frm_Menu menu = new Frm_Menu(this);
+                menu.Show();
+                this.Hide();
             }
         }
 

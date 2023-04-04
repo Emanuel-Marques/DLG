@@ -12,9 +12,30 @@ namespace DLG_Project
 {
     public partial class Frm_Menu : Form
     {
-        public Frm_Menu()
+        Form splash;
+        public Frm_Menu(Form f)
         {
+             splash = f;
             InitializeComponent();
+        }
+
+        private void btn_youtube_Click(object sender, EventArgs e)
+        {
+            string canalYoutube = "https://www.youtube.com/@dctechangola1781";
+
+            System.Diagnostics.Process.Start(canalYoutube);
+        }
+
+        private void btn_instagram_Click(object sender, EventArgs e)
+        {
+            string perfilInstagram = "https://www.instagram.com/dctechangola585";
+
+            System.Diagnostics.Process.Start(perfilInstagram);        }
+
+        private void btn_fechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            splash.Close();
         }
     }
 }
