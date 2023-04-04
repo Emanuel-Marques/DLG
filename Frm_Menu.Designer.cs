@@ -40,6 +40,8 @@ namespace DLG_Project
             this.btn_fechar.BackColor = System.Drawing.Color.Transparent;
             this.btn_fechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_fechar.FlatAppearance.BorderSize = 0;
+            this.btn_fechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_fechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_fechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_fechar.Location = new System.Drawing.Point(937, 24);
             this.btn_fechar.Name = "btn_fechar";
@@ -53,6 +55,8 @@ namespace DLG_Project
             this.btn_minimizar.BackColor = System.Drawing.Color.Transparent;
             this.btn_minimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_minimizar.FlatAppearance.BorderSize = 0;
+            this.btn_minimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_minimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_minimizar.Location = new System.Drawing.Point(882, 35);
             this.btn_minimizar.Name = "btn_minimizar";
@@ -65,6 +69,8 @@ namespace DLG_Project
             this.btn_youtube.BackColor = System.Drawing.Color.Transparent;
             this.btn_youtube.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_youtube.FlatAppearance.BorderSize = 0;
+            this.btn_youtube.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_youtube.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_youtube.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_youtube.Location = new System.Drawing.Point(10, 631);
             this.btn_youtube.Name = "btn_youtube";
@@ -78,6 +84,8 @@ namespace DLG_Project
             this.btn_instagram.BackColor = System.Drawing.Color.Transparent;
             this.btn_instagram.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_instagram.FlatAppearance.BorderSize = 0;
+            this.btn_instagram.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_instagram.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_instagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_instagram.Location = new System.Drawing.Point(51, 631);
             this.btn_instagram.Name = "btn_instagram";
